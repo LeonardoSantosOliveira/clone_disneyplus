@@ -1,4 +1,5 @@
 @use 'hero';
+@use 'shows';
 @use 'variables';
 
 @font-face {
@@ -17,11 +18,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Avenir, 'sans-serif';
 }
 
 body{
     background-color: variables.$corDeFundo;
-    font-family: Avenir, 'sans-serif';
 }
 
 @mixin text($fontSize: 16px){
