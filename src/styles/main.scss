@@ -1,6 +1,7 @@
 @use 'hero';
 @use 'shows';
 @use 'variables';
+@use 'plans';
 
 @font-face {
     font-family: Avenir;
@@ -22,7 +23,7 @@
 }
 
 body{
-    background-color: variables.$corDeFundo;
+    background-color: variables.$corDeFundo
 }
 
 @mixin text($fontSize: 16px){
@@ -64,4 +65,19 @@ body{
     @include text(18px);
     color: variables.$corTextSecundaria;
     text-decoration: underline;
+}
+
+.button{
+    display: block;
+    width: 100%;
+    height: 60px;
+    font-size: 18px;
+    color: variables.$corTextPrincipal;
+    background-color: #6421ff;
+    text-transform: uppercase;
+    border-radius: 4px;
+    margin-top: 2vw;
+    margin-bottom: 8px;
+    border: none;
+    cursor: pointer;
 }
