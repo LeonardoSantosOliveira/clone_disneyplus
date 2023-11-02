@@ -38,7 +38,7 @@
                 height: 0;
                 overflow: hidden;
                 padding: 0 24px;
-                transition: height, .4s ease;
+                transition: height, .5s ease;
             }   
 
             &--is-open{
@@ -56,7 +56,7 @@
                 .faq__questions__item__answer{
                     padding-bottom: 24px;
                     height: auto;
-                    transition: height, .4s ease;
+                    transition: height, .5s ease;
                 }
 
                 span{
