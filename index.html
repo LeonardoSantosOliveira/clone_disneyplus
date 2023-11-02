@@ -7,11 +7,26 @@
     <link rel="stylesheet" href="dist/css/main.css">
 </head>
 <body>
+    <header class="header header--is-hidden">
+        <div class="header__container">
+            <h1>
+                <img class="header__logo" src="dist/images/disneyplus.svg" alt="Disney+">
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a class="button button--secondary" href="#">Assine agora</a>
+                </li>
+                <li class="header__links__item">
+                    <a class="button button--dark" href="#">Entrar</a>
+                </li>
+            </ul>
+        </div>
+    </header>
     <section class="hero">
         <div class="hero__content">
-            <h1 class="hero__content__branding">
+            <div class="hero__content__branding">
                 <img src="dist/images/disneyplus.svg" alt="Disney+">
-            </h1>
+            </div>
             <h3 class="title--small">
                 As melhores histórias em um só lugar.
             </h3>
@@ -56,7 +71,7 @@
             <li class="shows__list__item">
                 <img src="dist/images/em_breve/lobisomem.jpg" alt="Lobisomem">
             </li>
-            <li class="shows__list__item">
+            <li class="shows__list__item">,
                 <img src="dist/images/em_breve/sem_limites.jpg" alt="Sem limites">
             </li>
             <li class="shows__list__item">
@@ -207,6 +222,106 @@
             </li>
         </ul>
     </section>
+    <section class="faq">
+        <h2 class="title">Perguntas frequentes</h2>
+        <ul class="faq__questions">
+            <li class="faq__questions__item">
+                <div data-faq-question="" class="faq__questions__item__question">
+                    Já tem o Disney+ ou o Star+ e quer o Combo+?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    <span>Ao assinar o Combo+:</span>
+                    <ul>
+                        <li>O valor da sua assinatura existente será descontado do preço do Combo+.</li>
+                        <li>Se você assina o plano mensal, o valor que você paga mensalmente será descontado do preço do Combo+.</li>
+                        <li>Se você tem uma assinatura anual do Disney+ cobrada diretamente pelo Disney+, não é possível mudar para o Combo+ no momento. Entre em contato com o suporte do Star+ para conhecer suas opções.</li>
+                        <li>Você vai receber um e-mail com os valores detalhados assim que finalizar o pagamento.</li>
+                        <li>Lembre-se: você pode cancelar a assinatura quando quiser.</li>
+                    </ul>
+                    <span>No momento, apenas a assinatura mensal do Combo+ está disponível.</span>
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div data-faq-question="" class="faq__questions__item__question">
+                    Já é assinante do Disney+?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    <span>Assine o Star+ usando o mesmo login e senha do Disney+, assim você terá acesso a ambos os serviços por um preço promocional. Para ser assinante, você deve ter 18 anos.</span>
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div data-faq-question="" class="faq__questions__item__question">
+                    Em quantos dispositivos posso assistir ao mesmo tempo?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    <span>Com o Combo+, você tem entretenimento em dobro. Você pode assistir ao Disney+ em 4 dispositivos compatíveis simultaneamente e ao Star+ em mais 4.</span>
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div data-faq-question="" class="faq__questions__item__question">
+                    Posso baixar o conteúdo?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    <span>Com o Combo+, você pode baixar conteúdo do Disney+ em 10 dispositivos e do Star+ em mais 10.</span>
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div data-faq-question="" class="faq__questions__item__question">
+                    Quais formas de pagamento posso utilizar?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    <span>Você pode utilizar: cartão de débito, cartão de crédito, PayPal, Mercado Pago, e também empresas parceiras como Google Play Store, App Store da Apple; Mercado Livre e provedores locais de TV, telefonia e internet.</span>
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div data-faq-question="" class="faq__questions__item__question">
+                    O Star+ possui controle parental?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    <span>Sim. Com o controle parental do Star+, você poderá controlar o acesso a conteúdos de acordo com a classificação indicativa selecionada, oferecendo maior segurança aos usuários da sua família.</span>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="dist/images/disneyplus.svg" alt="disney+">
+            <ul class="footer__links">
+                <li class="footer__links__item">
+                    <div class="language-selector">
+                        <img src="dist/images/icones/globe.svg" alt="globo do mundo">
+                        <select>
+                            <option>English</option>
+                            <option selected>Portugûes</option>
+                        </select>
+                    </div>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Termos e Condições de Uso</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Política de privacidade</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Proteção de Dados no Brasil</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Anúncios persnalizados</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Dispositivos compátiveis</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Ajuda</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Sobre o Disney+</a>
+                </li>
+            </ul>
+            <p class="text--small">&copy; 2023 Disney, Disney+ e The Walt Disney Company. Todos os direitos reservados. Serviço de assinatura paga. Conteúdo sujeito a disponibilidade.</p>
+            <p class="text--small">Disney+ é um serviço pago, baseado em assinatura e sujeito a termos e condições. O serviço Disney+ é comercializado por The Walt Disney Company (Brasil) Ltda., World Trade Center, Av. Das Nações Unidas, 12.551, 12.555, 12.559,, Piso 10, São Paulo/SP - CEP 04578-903, Brasil e CNPJ/M 73.042.962/0004-20</p>
+        </div>
+    </footer>
     <script src="src/main.js"></script>
 </body>
 </html>
